@@ -1,6 +1,6 @@
 \documentclass[
   final,
-  babelLanguage=british,
+  babelLanguage=portuguese,
   desktopVersion,
   %showtrims,
   %overleaf,
@@ -19,12 +19,12 @@
 %% Details of the book
 %% ===================
 
-\title{Prophecy Title}
-\subtitle{Prophecy Subtitle}
-\author{The Author}
-\publisher{The Publisher}
+\title{Ser Consciente}
+\subtitle{Transcendendo a vida e a morte}
+\author{Ajahn Sumedho}
+\publisher{Publicações Sumedhārāma}
 \date{2017-08-19}
-\editionInfo{\textit{First edition}, printed in TODO Country, 2017}% TODO update edition info
+\editionInfo{3\textsuperscript{a} Edição, printed in Malaysia, 2018}% TODO review edition info
 \ISBN{000-000-0000-00-0}% TODO update ISBN
 
 % === Metadata ===
@@ -32,8 +32,8 @@
 \pdfinfo{%
   /Title (\thetitle)%
   /Author (\theauthor)
-  /Subject (subject)% TODO subject
-  /Keywords (keywords)% TODO keywords
+  /Subject (\thesubtitle)
+  /Keywords (buddhism, Dhamma, meditation)
   /GTS_PDFXVersion (PDF/X-1:2001)%
   /GTS_PDFXConformance (PDF/X-1a:2001)%
 }
@@ -61,19 +61,20 @@
 \cleartorecto
 \tableofcontents*
 
-\input{./manuscript/tex/foreword.tex}
+\input{./manuscript/tex/introduction.tex}
 
 \input{./manuscript/tex/preface.tex}
 
 % Page 1 is the first page of the first chapter.
 \mainmatter
 
-\input{./manuscript/tex/01-chapter-one.tex}
-\input{./manuscript/tex/02-chapter-two.tex}
+\input{./manuscript/tex/01-investigacao.tex}
+\input{./manuscript/tex/02-instrucao.tex}
+\input{./manuscript/tex/03-reflexao.tex}
 
 \backmatter
 
-\input{./manuscript/tex/glossary.tex}
+\input{./manuscript/tex/epilogue.tex}
 
 \input{./manuscript/tex/copyright-details.tex}
 

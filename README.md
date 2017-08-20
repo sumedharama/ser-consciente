@@ -3,7 +3,9 @@ Ser consciente (PT)
 
 *Transcendendo a vida e a morte*
 
-Ensinamentos sobre meditação Venerável Ajahn Sumedho
+Ensinamentos sobre meditação
+
+Venerável Ajahn Sumedho
 
 By Ajahn Sumedho
 
