@@ -1,35 +1,38 @@
-= Book Title
-The Author
-v1.0, 2017-08-19
-:booktitle: Book Title
-:revdate: 2017-08-19
-:description: Book Subtitle
-:doctype: book
+= Ser Consciente 
+:booktitle: {doctitle}
+:description: Transcendendo a vida e a morte - Ensinamentos sobre meditação
+:author: Ajahn Sumedho
 :creator: {author}
-:lang: en
-//:keywords: subject, topic
+:version: v1.0
+:revdate: 2017-10-10
+:doctype: book
+:lang: pt
+:pubs-logo: sumedharama-w100.jpg
+:publisher: Publicações Sumedhārāma
+:publisher-website: www.sumedharama.pt
+:source: https://forestsangha.org
+:keywords: Ajahn Sumedho, Dhamma, meditation, Buddhism, RELIGION / Buddhism / Theravada
 :copyright: CC-BY-NC-ND 4.0
 :isbn: 000-0-00000-000-0
-:imagesdir: assets/photos/ebook-92dpi-sRGB
+:identifier: isbn:{isbn}
+:imagesdir: assets/photos/92dpi-ebook-sRGB
 :includes: manuscript/asciidoc
 :front-cover-image: image:desktop-cover.png[Front Cover,800,1200]
 :toc: left
-:toc-title: Contents
+:toc-title: Índice
 :toclevels: 0
-
-include::{includes}/dedication.adoc[]
-
-include::{includes}/foreword.adoc[]
-
-include::{includes}/preface.adoc[]
 
 include::{includes}/titlepage.adoc[]
 
-include::{includes}/01-chapter-one.adoc[]
+include::{includes}/introduction.adoc[]
 
-include::{includes}/02-chapter-two.adoc[]
+include::{includes}/preface.adoc[]
 
-include::{includes}/glossary.adoc[]
+include::{includes}/01-investigacao.adoc[]
+
+include::{includes}/02-instrucao.adoc[]
+
+include::{includes}/03-reflexao.adoc[]
 
 include::{includes}/copyright.adoc[]
 

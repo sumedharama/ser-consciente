@@ -1,4 +1,4 @@
-Ser consciente (PT)
+Ser Consciente
 ==============
 
 *Transcendendo a vida e a morte*

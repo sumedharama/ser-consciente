@@ -6,3 +6,27 @@
 
 [role=titlepage-author]
 {author}
+
+image::{pubs-logo}[role=titlepage-pubs-logo]
+
+[role=titlepage-publisher]
+{publisher}
+
+[role=titlepage-publisher-website]
+{publisher-website}
+
+<<<
+
+_Agradecimentos_
+
+Em primeiro lugar e em nome de todos os que praticam o desapego para a
+libertação das correntes da vida, devo agradecer a Luang Por Sumedho
+pela sua realização no Dhamma, impulso inspirador na busca da Verdade.
+
+Os meus sinceros agradecimentos a todos os que contribuíram para a
+concretização desta obra editada agora em português.
+
+Que o fruto do Caminho seja a total libertação de todo o sofrimento para
+todos os seres.
+
+Bhikkhu Appamādo
