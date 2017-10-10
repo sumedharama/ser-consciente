@@ -4,3 +4,25 @@
   \renewcommand{\contentsname}{Índice}%
 }
 
+\newenvironment{instruction}%
+{\itshape
+\list{}{\rightmargin 10pt}%
+\item[]}%
+{\endlist}
+
+\newenvironment{english}%
+{\itshape
+\list{}{\rightmargin 10pt}%
+\item[]}%
+{\endlist}
+
+\newlength\preceptnumwidth
+\setlength{\preceptnumwidth}{\widthof{\normalsize 9.\space}}
+
+\newenvironment{precept}%
+{\begin{enumerate}[
+  itemindent=0pt,
+  leftmargin={\preceptnumwidth},
+  rightmargin=0pt,
+]%
+}{\end{enumerate}}
