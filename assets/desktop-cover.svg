@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.1 r15371"
-   sodipodi:docname="desktop-cover.svg">
+   sodipodi:docname="desktop-cover.svg"
+   inkscape:export-filename="/home/yume/prods/books/alpha/ser-consciente/assets/photos/92dpi-ebook-sRGB/desktop-cover.png"
+   inkscape:export-xdpi="133.33334"
+   inkscape:export-ydpi="133.33334">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -29,7 +32,7 @@
      inkscape:cx="109.08081"
      inkscape:cy="393.79621"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4517"
      showgrid="false"
      units="in"
      inkscape:snap-center="false"
@@ -37,8 +40,8 @@
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-page="true"
-     inkscape:window-width="1916"
-     inkscape:window-height="1041"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
      inkscape:window-x="0"
      inkscape:window-y="37"
      inkscape:window-maximized="0" />
@@ -50,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -85,26 +88,24 @@
        transform="translate(9.0217589e-7,-1.8522771)">
       <text
          id="text4487"
-         y="200.16019"
-         x="34.099236"
+         y="198.71861"
+         x="16.143682"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.93333244px;line-height:5.29166651px;font-family:Existence;-inkscape-font-specification:'Existence, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          xml:space="preserve"><tspan
-           dx="0"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.93333244px;font-family:Existence;-inkscape-font-specification:'Existence, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:1.05833328px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none"
-           y="200.16019"
-           x="34.099236"
-           id="tspan4485"
-           sodipodi:role="line">PROPHECY</tspan></text>
+           sodipodi:role="line"
+           id="tspan4549"
+           x="16.143682"
+           y="198.71861">SER CONSCIENTE</tspan></text>
       <text
          id="text4497"
-         y="221.62996"
-         x="41.15263"
+         y="225.07111"
+         x="27.343584"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.11111069px;line-height:5.29166651px;font-family:Existence;-inkscape-font-specification:'Existence, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           y="221.62996"
-           x="41.15263"
-           id="tspan4501"
-           sodipodi:role="line">The Author</tspan></text>
+           sodipodi:role="line"
+           id="tspan4551"
+           x="27.343584"
+           y="225.07111">Ajahn Sumedho</tspan></text>
     </g>
   </g>
 </svg>
