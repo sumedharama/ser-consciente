@@ -4,11 +4,11 @@
 :author: Ajahn Sumedho
 :creator: {author}
 :version: v1.0
-:revdate: 2017-10-10
+:revdate: 2017-10-14
 :doctype: book
 :lang: pt
 :pubs-logo: sumedharama-w100.jpg
-:publisher: Publicações Sumedhārāma
+:publisher-name: Publicações Sumedhārāma
 :publisher-website: www.sumedharama.pt
 :source: https://forestsangha.org
 :keywords: Ajahn Sumedho, Dhamma, meditation, Buddhism, RELIGION / Buddhism / Theravada
@@ -17,7 +17,7 @@
 :identifier: isbn:{isbn}
 :imagesdir: assets/photos/92dpi-ebook-sRGB
 :includes: manuscript/asciidoc
-:front-cover-image: image:desktop-cover.png[Front Cover,800,1200]
+:front-cover-image: image:desktop-cover.jpg[Front Cover,800,1200]
 :toc: left
 :toc-title: Índice
 :toclevels: 0
