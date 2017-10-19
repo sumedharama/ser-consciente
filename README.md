@@ -1,7 +1,7 @@
 Ser Consciente
 ==============
 
-*Transcendendo a vida e a morte*
+*O Caminho para o Incondicionado*
 
 Ensinamentos sobre meditação
 
@@ -9,14 +9,14 @@ Venerável Ajahn Sumedho
 
 By Ajahn Sumedho
 
-Paperback status: **IN PROGRESS**  
-Ebook status: **N/A**
+Paperback status: **COMPLETED**  
+Ebook status: **COMPLETED**
 
 Third Edition (2018)
 
-ISBN for paperback: `000-000-0000-00-0`
+ISBN for paperback: `978-989-8691-67-5`
 
-ISBN for ebooks: `000-0-00000-000-0`
+ISBN for ebooks: `978-989-8691-68-2`
 
 See the final files in the `publish/final/` folder.
 
