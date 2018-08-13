@@ -8,7 +8,7 @@ Publicações Sumedhārāma +
 link:http://sumedharama.pt[www.sumedharama.pt]
 
 Este livro encontra-se disponível para distribuição gratuita em +
-link:http://fsbooks.org/[www.fsbooks.org]
+link:http://forestsangha.org/[www.forestsangha.org]
 
 Digital Edition {version}
 
