@@ -12,7 +12,7 @@ By Ajahn Sumedho
 Paperback status: **COMPLETED**  
 Ebook status: **COMPLETED**
 
-Third Edition (2018)
+Third Edition (2025)
 
 ISBN for paperback: `978-989-8691-67-5`
 

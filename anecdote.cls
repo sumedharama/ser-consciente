@@ -148,7 +148,7 @@
 \definecolor{tocleftside}{gray}{0.5}
 \definecolor{tocleftsidepart}{gray}{0.2}
 \definecolor{partname}{gray}{0.5}
-\definecolor{parttitle}{gray}{0.5}
+\definecolor{parttitle}{gray}{0.3}
 \definecolor{linkborder}{rgb}{0.4,0.4,1}% light blue
 \definecolor{link}{rgb}{0.2,0.2,1}% not so light blue
 
@@ -185,6 +185,12 @@
   BoldItalicFont = GenBkBasBI.ttf,
 ]{GentiumPlus-R.ttf}
 
+\newfontfamily\alegreyaScFont[
+  ItalicFont = AlegreyaSC-Italic.otf,
+  BoldFont = AlegreyaSC-Bold.otf,
+  BoldItalicFont = AlegreyaSC-BoldItalic.otf,
+]{AlegreyaSC-Regular.otf}
+
 % header and footer
 
 \newcommand\headerFont\crimsonRomanFont
@@ -193,15 +199,15 @@
 
 % chapter and section
 
-\newcommand\partTitleFont\crimsonRomanFont
+\newcommand\partTitleFont\alegreyaScFont
 
-\newcommand\chapterNameFont\crimsonRomanFont
-\newcommand\chapterTitleFont\crimsonRomanFont
-\newcommand\chapterNumberFont\crimsonRomanFont
+\newcommand\chapterNameFont\alegreyaScFont
+\newcommand\chapterTitleFont\alegreyaScFont
+\newcommand\chapterNumberFont\alegreyaScFont
 \newcommand\chapterAuthorFont\crimsonRomanFont
 \newcommand\chapterNoteFont\crimsonRomanFont
 
-\newcommand\sectionFont\crimsonRomanFont
+\newcommand\sectionFont\alegreyaScFont
 
 % toc
 
@@ -213,9 +219,9 @@
 \newcommand{\chapterNameSize}
   {\@setfontsize\chapterNameSize{22}{24}}
 \newcommand{\chapterNumberSize}
-  {\@setfontsize\chapterNumberSize{22}{24}}
+  {\@setfontsize\chapterNumberSize{32}{32}}
 \newcommand{\chapterTitleSize}
-  {\@setfontsize\chapterTitleSize{13}{16.5}}
+  {\@setfontsize\chapterTitleSize{16}{25}}
 \newcommand{\chapterTitleFootnoteSize}
   {\@setfontsize\chapterTitleFootnoteSize{16}{30}}
 \newcommand{\chapterAuthorSize}
@@ -247,6 +253,7 @@
 
 % Tracking for uppercase section heading
 \SetTracking[spacing={400,100,}]{encoding=*, family={Crimson-Roman.otf}}{20}
+\SetTracking[spacing={400,100,}]{encoding=*, family={AlegreyaSC-Regular.otf}}{20}
 
 % === hyperref ===
 
@@ -908,7 +915,7 @@ philo-sophical munindo amaravati thai-land}
 
 \titlecontents{part}[\tocLeftWidth]
 {\addvspace{25pt}%
-\fontsize{11}{11}\crimsonRomanFont\selectfont}%
+\fontsize{11}{11}\partTitleFont\selectfont}%
 {%
   \contentsmargin{0pt}%
   \thecontentslabel.\space
@@ -990,11 +997,11 @@ philo-sophical munindo amaravati thai-land}
       \fi
       \normalfont
       \ifnum \c@secnumdepth >-2\relax
-        \resizebox{2.8cm}{!}{\printpartname \partnamenum \printpartnum}
+        {\partTitleFont\fontsize{30}{35}\selectfont \printpartname \partnamenum \printpartnum}
         \par\vskip 20pt
       \fi
       \ifthisparthastitle
-        \printparttitle{#2}
+        \printparttitle{\textls*{#2}}
       \else
         \global\thisparthastitletrue
       \fi
@@ -1054,7 +1061,7 @@ philo-sophical munindo amaravati thai-land}
 
 \makechapterstyle{lowtitle}{
   \chapterstyle{default}
-  \setlength{\beforechapskip}{30mm}
+  \setlength{\beforechapskip}{30mm-1.5\baselineskip}
   \setlength{\chapterTitleLeftSkip}{17pt}
   \renewcommand\printchaptername{}
   \renewcommand\chapternamenum{}
@@ -1063,7 +1070,7 @@ philo-sophical munindo amaravati thai-land}
     \chapnumfont\color{chapternum}%
     \hspace*{\chapterTitleLeftSkip}\thechapter%
   }
-  \setlength{\midchapskip}{2\onelineskip}
+  \setlength{\midchapskip}{1.5\onelineskip}
   \renewcommand\afterchapternum{\par\nobreak\vskip \midchapskip}
   \renewcommand\printchapternonum{}
   \renewcommand\chaptitlefont{\chapterTitleFont\chapterTitleSize}
@@ -1071,7 +1078,7 @@ philo-sophical munindo amaravati thai-land}
     \raggedright\hspace*{\chapterTitleLeftSkip}%
     \parbox{\linewidth - \chapterTitleLeftSkip}{%
       \raggedright\chaptitlefont\color{chaptertitle}%
-      \textls*{\MakeUppercase{##1}}%
+      \textls*{##1}%
       \ifchapterfootnote%
         \hspace*{2pt}\theChapterFootnoteMark%
       \fi%
@@ -1091,7 +1098,7 @@ philo-sophical munindo amaravati thai-land}
       \global\chapterfootnotefalse%
     \fi%
   }
-  \setlength{\afterchapskip}{2.5\onelineskip}
+  \setlength{\afterchapskip}{3.5\onelineskip}
   \renewcommand\afterchaptertitle{\par\nobreak\vskip \afterchapskip}%
 }
 
@@ -1101,8 +1108,8 @@ philo-sophical munindo amaravati thai-land}
   \setlength{\chapterTitleLeftSkip}{0pt}
   \renewcommand*\printchaptertitle[1]{%
     {%
-      \centering\chaptitlefont\color{chaptertitle}%
-      \textls*{\MakeUppercase{##1}}%
+      \centering\crimsonRomanFont\fontsize{18}{16}\selectfont\color{chaptertitle}%
+      \textit{##1}%
       \par
     }%
   }

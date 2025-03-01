@@ -16,7 +16,7 @@ ePub ISBN {isbn}
 
 This electronic edition was published on {revdate}
 
-Copyright © 2018 Publicações Sumedhārāma
+Copyright © 2025 Publicações Sumedhārāma
 
 Traduzido por Bhikkhu Appamādo
 
