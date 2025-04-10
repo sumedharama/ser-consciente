@@ -257,8 +257,8 @@
 
 % === hyperref ===
 
-\RequirePackage{hyperxmp}
 \RequirePackage{hyperref}
+\RequirePackage{hyperxmp}
 
 \ifdesktopversion
 \hypersetup{
